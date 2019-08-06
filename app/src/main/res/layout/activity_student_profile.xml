@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".studentProfileActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT'S PROFILE"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:id="@+id/tv_students_profile_id"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/tv_students_profile_id"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mprofile_image"
+        android:id="@+id/iv_students_photo_id"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/iv_students_photo_id"
+    android:background="@color/colorBlue"
+    android:layout_marginTop="25dp"
+    >
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/student_profile_boarder"
+        android:id="@+id/bt_class_attendance_id"
+        android:text="Class attendance"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/student_profile_boarder"
+        android:id="@+id/bt_students_perfomance_id"
+        android:text="Students perfomance"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/bt_school_news_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/student_profile_boarder"
+        android:text="School news"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/student_profile_boarder"
+        android:id="@+id/bt_students_conduct_id"
+        android:text="Students Conduct"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/bt_class_attendance_id"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/student_profile_boarder"
+        android:id="@+id/bt_school_fees_records_id"
+        android:text="School Fees records"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/bt_students_perfomance_id"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/student_profile_boarder"
+        android:id="@+id/bt_pay_fee_id"
+        android:text="Pay Fee"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/bt_school_news_id"
+        android:layout_marginStart="275dp"/>
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>
