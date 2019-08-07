@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSchool"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="300dp"
+               android:layout_height="50dp"
+               android:text="REGISTER AS A SCHOOL"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="25dp"
+               android:id="@+id/tv_register_school_id"
+               android:inputType="text"
+               />
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="School Name"
+               android:layout_below="@id/tv_register_school_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_school_name_id"
+               android:inputType="text"
+               />
+
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="School Email Address"
+               android:layout_below="@id/et_school_name_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_school_email_address_id"
+               android:layout_marginTop="15dp"
+               android:inputType="text"
+               />
+
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="Your Name"
+               android:layout_below="@id/et_School_Code_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_your_name_id"
+               android:layout_marginTop="15dp"
+               android:inputType="text"
+               />
+
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="Your Email Address"
+               android:layout_below="@id/et_your_name_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_your_email_address_id"
+               android:layout_marginTop="15dp"
+               android:inputType="text"
+               />
+
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="Your Phone Number"
+               android:layout_below="@id/et_your_email_address_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_your_phone_number_id"
+               android:layout_marginTop="15dp"
+               android:inputType="number"
+               />
+
+
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="Your Password"
+               android:layout_below="@id/et_your_phone_number_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_your_password_id"
+               android:layout_marginTop="15dp"
+               android:inputType="textPassword"
+               />
+
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="Confirm Your Password"
+               android:layout_below="@id/et_your_password_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_Confirm_Your_password_id"
+               android:layout_marginTop="15dp"
+               android:inputType="textPassword"
+               />
+
+
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:hint="School Code"
+               android:layout_below="@id/et_school_email_address_id"
+               android:background="@drawable/register_school_et_boarder"
+               android:layout_centerHorizontal="true"
+               android:paddingStart="10dp"
+               android:id="@+id/et_School_Code_id"
+               android:layout_marginTop="15dp"
+               android:inputType="number"
+               />
+
+           <Button
+               android:layout_width="300dp"
+               android:layout_height="50dp"
+               android:text="REGISTER"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:background="#0288FE"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="25dp"
+               android:layout_below="@id/et_Confirm_Your_password_id"
+               android:id="@+id/bt_register_school_id"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="already have an account?"
+               android:id="@+id/tv_already_have_a_school_account_id"
+               android:textColor="#000000"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/bt_register_school_id"
+               android:layout_marginTop="10dp"
+               />
+
+           <Button
+               android:layout_width="80dp"
+               android:layout_height="50dp"
+               android:id="@+id/bt_login_school_button_id"
+               android:text="login"
+               android:background="#0288FE"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="5dp"
+               android:layout_below="@id/tv_already_have_a_school_account_id"/>
+
+         </RelativeLayout>
+
+       </ScrollView>
+
+     </LinearLayout>
+
+
+   </RelativeLayout>
+
+</RelativeLayout>

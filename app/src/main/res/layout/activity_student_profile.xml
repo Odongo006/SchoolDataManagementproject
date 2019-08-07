@@ -57,7 +57,7 @@
         android:id="@+id/bt_school_news_id"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="275dp"
+        android:layout_marginStart="270dp"
         android:layout_marginTop="25dp"
         android:background="@drawable/student_profile_boarder"
         android:text="School news"
@@ -93,7 +93,7 @@
         android:textColor="#FFFFFF"
         android:layout_marginTop="25dp"
         android:layout_below="@id/bt_school_news_id"
-        android:layout_marginStart="275dp"/>
+        android:layout_marginStart="270dp"/>
 
 
 

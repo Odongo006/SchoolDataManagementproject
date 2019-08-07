@@ -23,15 +23,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="CREATE ACCOUNT"
-                        android:textColor="#000000"
-                        android:textStyle="bold"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:text="REGISTER A STUDENT"
                         android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="25dp"
-                        android:id="@+id/tv_create_account_id"/>
+                        android:id="@+id/tv_register_school_id"
+                        android:inputType="text"
+                        android:paddingStart="25dp"/>
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="250dp"
@@ -47,151 +49,103 @@
                         android:text="choose image"
                         android:textStyle="bold"
                         android:textColor="#FFFFFF"
-                        android:background="@drawable/button_border"
+                        android:background="#0288FE"
                         android:layout_centerHorizontal="true"
                         android:layout_below="@id/iv_mProfile_id"
                         android:layout_marginTop="45dp"
                         android:id="@+id/bt_choose_image_id"
                         />
                     <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:hint="Name"
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:hint="Students Name"
                         android:layout_below="@id/bt_choose_image_id"
-                        android:layout_marginTop="45dp"
-                        android:layout_marginStart="10dp"
-                        android:paddingRight="115dp"
-                        android:textColor="#000000"
-                        android:id="@+id/et_name_id"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
+                        android:background="@drawable/register_school_et_boarder"
                         android:layout_centerHorizontal="true"
-                        android:inputType="text"
-
-
-                        />
-                    <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:hint="Surname"
-                        android:id="@+id/et_surname_id"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_below="@id/et_name_id"
-                        android:paddingRight="90dp"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
-                        android:layout_centerHorizontal="true"
-                        android:inputType="text"/>
-
-                    <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:hint="Name of the School"
-                        android:id="@+id/et_school_id"
-                        android:layout_marginStart="10dp"
-                        android:paddingRight="90dp"
-                       android:layout_below="@id/et_surname_id"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
-                        android:layout_centerHorizontal="true"
+                        android:paddingStart="10dp"
+                        android:id="@+id/et_Students_Name4_id"
+                        android:layout_marginTop="15dp"
                         android:inputType="text"
                         />
 
                         />
                     <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:hint="School Code"
-                        android:id="@+id/et_school_code_id"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_below="@id/et_school_id"
-                        android:paddingRight="100dp"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:hint="Enter Name of School"
+                        android:layout_below="@id/et_Students_Name4_id"
+                        android:background="@drawable/register_school_et_boarder"
                         android:layout_centerHorizontal="true"
-                        android:inputType="number"/>
+                        android:paddingStart="10dp"
+                        android:id="@+id/et_Enter_name_of_school_id"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        />
 
                     <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:hint="Students Admission number"
-                        android:id="@+id/et_students_admission_number_id"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_below="@id/et_school_code_id"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:hint="Enter Admission Number"
+                        android:layout_below="@id/et_Enter_name_of_school_id"
+                        android:background="@drawable/register_school_et_boarder"
                         android:layout_centerHorizontal="true"
-                        android:inputType="number"/>
-
-                    <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:hint="User Name"
-                        android:id="@+id/et_user_name_id"
-                        android:layout_marginStart="10dp"
-                        android:paddingRight="90dp"
-                        android:layout_below="@id/et_students_admission_number_id"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
-                        android:layout_centerHorizontal="true"
+                        android:paddingStart="10dp"
+                        android:id="@+id/et_Enter_admission_number4_id"
+                        android:layout_marginTop="15dp"
                         android:inputType="text"/>
+                        />
+                    <EditText
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:hint="Enter Phone Number"
+                        android:layout_below="@id/et_Enter_admission_number4_id"
+                        android:background="@drawable/register_school_et_boarder"
+                        android:layout_centerHorizontal="true"
+                        android:paddingStart="10dp"
+                        android:id="@+id/et_Enter_phone_number4_id"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        />
 
                     <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:hint="password"
-                        android:id="@+id/et_password_id"
-                        android:layout_marginStart="10dp"
-                        android:paddingRight="90dp"
-                        android:layout_below="@id/et_user_name_id"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
+                        android:hint="Students Password"
+                        android:layout_below="@id/et_Enter_phone_number4_id"
+                        android:background="@drawable/register_school_et_boarder"
                         android:layout_centerHorizontal="true"
+                        android:paddingStart="10dp"
+                        android:id="@+id/et_Students_password_id"
+                        android:layout_marginTop="15dp"
                         android:inputType="textPassword"
                         />
 
+
+
                     <EditText
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="350dp"
+                        android:layout_height="50dp"
                         android:hint="Confirm Password"
-                        android:id="@+id/et_confirm_password_id"
-                        android:layout_marginStart="10dp"
-                        android:paddingRight="90dp"
-                        android:layout_below="@id/et_password_id"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/edit_text_border"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:paddingStart="15dp"
+                        android:layout_below="@id/et_Students_password_id"
+                        android:background="@drawable/register_school_et_boarder"
                         android:layout_centerHorizontal="true"
+                        android:paddingStart="10dp"
+                        android:id="@+id/et_Confirm_students_password_id"
+                        android:layout_marginTop="15dp"
                         android:inputType="textPassword"
                         />
+
+
+
+
+
+
 
                     <CheckBox
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:id="@+id/cb_terms_and_conditions_id"
-                        android:layout_below="@id/et_confirm_password_id"
+                        android:layout_below="@id/et_Confirm_students_password_id"
                         android:layout_marginStart="50dp"
                         android:layout_marginTop="25dp"/>
 
@@ -202,7 +156,7 @@
                         android:textColor="#000000"
                         android:layout_toRightOf="@id/cb_terms_and_conditions_id"
                         android:layout_marginStart="5dp"
-                        android:layout_below="@id/et_confirm_password_id"
+                        android:layout_below="@id/et_Confirm_students_password_id"
                         android:layout_marginTop="25dp"
                         android:id="@+id/tv_terms_and_condition_id"/>
 
@@ -232,13 +186,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Arlready have an account? "
+                        android:text="Sign in"
                         android:layout_marginTop="25dp"
                         android:textColor="#000000"
                         android:layout_below="@id/tv_already_have_an_account_id"
                         android:id="@+id/tv_login_id"
                         android:layout_marginStart="50dp"/>
-
                     <Button
                         android:layout_width="25dp"
                         android:layout_height="25dp"
