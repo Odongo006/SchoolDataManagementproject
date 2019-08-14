@@ -53,7 +53,7 @@ public class JoinActivity extends AppCompatActivity {
     }
 
     private void registerAsSchool() {
-        Intent intentRegisterSchool = new Intent(this,RegisterSchool.class);
+        Intent intentRegisterSchool = new Intent(this, studentProfileActivity.RegisterSchool.class);
         startActivity(intentRegisterSchool);
     }
 

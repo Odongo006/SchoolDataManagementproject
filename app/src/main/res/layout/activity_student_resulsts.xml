@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentsPerfomanceActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Students name"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/tv_et_enter_students_name_id"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        />
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_et_enter_students_name_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student1_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student1_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student2_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student2_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student3_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student3_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student4_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student4_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student5_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student5_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student6_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student6_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student7_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student7_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student8_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student8_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student9_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student9_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student10_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student10_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student11_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student11_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student12_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student12_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student13_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student13_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student14_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student14_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student15_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student15_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student16_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student16_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student17_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student17_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student18_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student18_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student19_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student19_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student20_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student20_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student21_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student21_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student22_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student22_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student23_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student23_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student24_id"/>
+
+                    <EditText
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/et_student24_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_student25_id"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_students_marks_id"
+                        android:text="Marks"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginStart="25dp"
+                        />
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/tv_students_marks_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks1_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks1_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks2_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks2_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks3_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks3_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks4_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks4_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks5_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks5_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks6_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks6_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks7_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks7_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks8_id"/>
+
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks8_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks9_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks9_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks10_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks10_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks11_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks11_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks12_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks12_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks13_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks13_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks14_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks14_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks15_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks15_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks16_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks16_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks17_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks17_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks18_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks18_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks19_id"/>
+
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks19_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks20_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks20_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks21_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks21_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks22_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks22_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks23_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks23_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks24_id"/>
+
+                    <EditText
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                        android:layout_below="@id/et_marks24_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_marks25_id"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_grade_id"
+                        android:text="Grade"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginStart="25dp"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/tv_grade_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade1_id"/>
+
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade1_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade2_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade2_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade3_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade3_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade4_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade4_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade5_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade5_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade6_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade6_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade7_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade7_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade8_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade8_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade9_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade9_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade10_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade10_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade11_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade11_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade12_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade12_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade13_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade13_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade14_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade14_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade15_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade15_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade16_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade16_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade17_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade17_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade18_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade18_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade19_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade19_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade20_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade20_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade21_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade21_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade22_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade22_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade23_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade23_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade24_id"/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_students_marks_id"
+                        android:layout_below="@id/et_grade24_id"
+                        android:layout_marginStart="25dp"
+                        android:id="@+id/et_grade25_id"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bt_send_information_id"
+                        android:text="send"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@id/et_grade25_id"
+                        android:background="#0288FE"  />
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

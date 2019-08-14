@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".schoolLogin">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN AS A SCHOOL"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#FE1D02"
+        android:id="@+id/tv_login_as_a_school_id"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter user name"
+        android:layout_below="@id/tv_login_as_a_school_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/et_enter_school_user_name_id"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter user password"
+        android:layout_below="@id/et_enter_school_user_name_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/et_enter_school_user_password_id"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/bt_login_as_school2_id"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_enter_school_user_password_id"
+        android:layout_marginTop="50dp"
+        android:background="#0288FE"/>
+
+</RelativeLayout>
